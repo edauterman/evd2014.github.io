@@ -2,10 +2,10 @@
 <html>
   <meta charset="utf-8">
   <title>Blockly Demo: Adventure Blockly</title>
-  <script src="../blockly/blockly_compressed.js"></script>
-  <script src="../blockly/blocks_compressed.js"></script>
-  <script src="../blockly/javascript_compressed.js"></script>
-  <script src="../blockly/msg/js/en.js"></script>
+  <script src="blockly_compressed.js"></script>
+  <script src="blocks_compressed.js"></script>
+  <script src="javascript_compressed.js"></script>
+  <script src="en.js"></script>
   <!-- TODO (edauterman): Use compressed version of JS-Interpreter after re-compiled to include createAsyncFunction -->
   <script src="interpreter.js"></script>
   <script src="acorn.js"></script>
@@ -814,7 +814,7 @@
 
  <script>
   var workspace = Blockly.inject('blocklyDiv',
-    {media: '../../media/',
+    {media: '../media/',
     toolbox: document.getElementById('toolbox')});
   // Button listeners
   /**
