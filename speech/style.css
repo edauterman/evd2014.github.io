@@ -15,12 +15,12 @@ h1 {
 
 section {
   float: left;
-  width: 70%;
+  width: 65%;
 }
 
 aside {
   float: right;
-  width: 30%;
+  width: 35%;
 }
 
 button {
@@ -57,7 +57,7 @@ button:hover:not(:disabled)>* {
 }
 
 #displayDiv {
-  width: 400px;
+  width: 300px;
 }
 
 #displayPic {
@@ -66,8 +66,8 @@ button:hover:not(:disabled)>* {
 }
 
 #blocklyDiv {
-  height: 480px;
-  width: 900px;
+  height: 450px;
+  width: 800px;
 }
 
 #toolbox, #madlibDemo, #tutorialDemo, #monkeyDemo, #conversationDemo {
