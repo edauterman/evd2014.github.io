@@ -67,7 +67,7 @@ button:hover:not(:disabled)>* {
 
 #blocklyDiv {
   height: 480px;
-  width: 900px;
+  width: 800px;
 }
 
 #toolbox, #madlibDemo, #tutorialDemo, #monkeyDemo, #conversationDemo {
